@@ -108,3 +108,26 @@
     line-height: 29px;
     text-align: center;
 }
+
+/* CONTACT AREA STYLE */
+.contact-area {
+    width: 100%;
+}
+.inner-contact {
+    height: 300px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
+    border-radius: 8px;
+    background-size: cover;
+}
+.inner-contact h2 {
+    width: 460px;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+    padding-top: 60px;
+    padding-left: 65px;
+}
+.inner-contact a {
+    margin-left: 65px;
+}
