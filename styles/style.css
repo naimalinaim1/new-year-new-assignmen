@@ -132,6 +132,64 @@
     margin-left: 65px;
 }
 
+/* CONTACT WITH EMAIL AREA STYLE */
+.contact-email {
+    width: 100%;
+}
+.contact-email > div {
+    background: rgba(237, 203, 139, 0.666);
+    padding: 40px 0;
+    border-radius: 5px;
+} 
+.contact-container {
+    width: 65%;
+    margin: 0 auto;
+}
+.contact-container h2 {
+    font-size: 35px;
+    margin-bottom: 45px;
+    line-height: 47px;
+    text-align: center;
+}
+.contact-form {
+    width: 100%;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 95.7%;
+    font-size: 18px;
+    display: block;
+    border: 1px solid #005FAC;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    padding: 15px 2%;
+}
+.contact-form textarea {
+    height: 200px;
+}
+
+.name-group {
+    display: flex;
+    justify-content: space-between;
+}
+.name-group input {
+    width: 44%;
+}
+.contact-form input[type="submit"] {
+    color: #FFFFFF;
+    background: #005FAC;
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    border: 1px solid #005FAC;
+    transition: 0.5s;
+}
+.contact-form input[type="submit"]:hover {
+    color: #000;
+    background: rgba(237, 203, 139, 0.666);
+    border: 1px solid #005FAC;
+}
+
 /* FOOTER AREA STYLE */
 .footer-area {
     background: #151414;
