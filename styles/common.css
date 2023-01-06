@@ -1,0 +1,32 @@
+/* Google font */
+/* Work Sans */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.container {
+    width: 96%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Common Button */
+.btn-primary {
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 25px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
