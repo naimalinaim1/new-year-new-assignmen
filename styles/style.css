@@ -218,6 +218,9 @@
 .future-des {
     margin-bottom: 24px;
 }
+.social-media a {
+    text-decoration: none;
+}
 .social-media img {
     width: 47px;
     height: 46px;
