@@ -27,3 +27,40 @@
     text-align: right;
     margin-bottom: 34px;
 }
+
+/* TESTIMONIAL AREA STYLE (year) */
+.inner-testimonial {
+    width: 1070px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonial-image {
+    width: 570px;
+}
+.testimonial-image img {
+    height: 650px;
+}
+.testimonial-text {
+    width: 420px;
+}
+.testimonial-text h2 {
+    color: #151414;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+.testimonial-text p {
+    color: #444343;
+    line-height: 26px;   
+    margin-bottom: 16px;
+}
+.testimonial-text ul {
+    margin: 0;
+    padding: 0;
+    list-style-image: url('../images/list-img.png');
+}
+.testimonial-text ul li {
+    margin-bottom: 10px;
+}
