@@ -2,7 +2,7 @@
 .header {
     width: 100%;
     height: 650px;
-    background-image: url('../images/banner/banner.png');
+    background-image: url('../images/banner/banner.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -115,7 +115,7 @@
 }
 .inner-contact {
     height: 300px;
-    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.jpg');
     border-radius: 8px;
     background-size: cover;
 }
