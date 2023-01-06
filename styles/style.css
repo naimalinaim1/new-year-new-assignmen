@@ -58,9 +58,53 @@
 }
 .testimonial-text ul {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 15px;
     list-style-image: url('../images/list-img.png');
 }
 .testimonial-text ul li {
     margin-bottom: 10px;
+}
+
+/* PLAN AREA STYLE */
+.plan-area {
+    width: 100%;
+}
+.inner-plan h2 {
+    color: #151414;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-item {
+    position: relative;
+    height: 220px;
+}
+.plan-item img {
+    width: 93px;
+    height: 93px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+}
+.plan-title {
+    color: #151414;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 130px 0 7px;
+    text-align: center;
+}
+.plan-des {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
 }
