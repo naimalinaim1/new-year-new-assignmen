@@ -131,3 +131,75 @@
 .inner-contact a {
     margin-left: 65px;
 }
+
+/* FOOTER AREA STYLE */
+.footer-area {
+    background: #151414;
+    margin-top: 130px;
+    padding: 130px 0;
+}
+.inner-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.future {
+    width: 490px;
+}
+.future h3 {
+    color: #F8F8F8;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 16px;
+}
+.future p {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.future-des {
+    margin-bottom: 24px;
+}
+.social-media img {
+    width: 47px;
+    height: 46px;
+    display: inline-block;
+    margin-right: 17px;
+}
+
+.subscribe {
+    width: 325px;
+}
+.subscribe h4 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-bottom: 31px;
+}
+.subscribe input {
+    color: #F3F3F3;
+    background: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 21px 17px;
+    margin-bottom: 17px;
+}
+.subscribe input[type="email"] {
+    width: 89%;
+}
+.subscribe input[type="submit"] {
+    color: #F3F3F3;
+    background: #005FAC;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 20px 36px;
+    border: 0;
+}
+.subscribe input[type="submit"]:hover {
+    transition: 0.5s;
+    color: #dbd9d9;
+    background: #02569b;
+}
